@@ -1,0 +1,29 @@
+bài 21: Web Form: Radio box, Checkbox & Textarea
+
+<Form name="..." action="..." method="...">
+    <input type="text" name="..." value="..."/>
+    <input type="password" name="..." value="..."/>
+    <input type="submit" name="..." value="..."/>
+    <input type="radio" name="..." value="..."/>
+    <input type="checkbox" name="..." value="..."/>
+    <textarea name="..." rows="..." cols="..."></textarea>
+</Form>
+
+ex:
+<input type="radio" name="sex" value="nam"/>nam
+<input type="radio" name="sex" value="nữ"/>nữ
+<br/>
+<input type="submit" name="btnsubmit" value="đồng ý"/>
+</form>
+ 
+
+ <select> 
+
+ ( nếu muốn chọn nhiều thuộc tính thì thêm multiple 
+ trong thẻ select như sau : <select multiple>)
+
+    <option value="organe">cam</option>
+    <option value="lemon">chanh</option>
+    <option value="apple" selected>táo</option>
+    <option value="mango">xoài</option>
+ </select>
